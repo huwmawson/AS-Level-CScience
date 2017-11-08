@@ -1,0 +1,11 @@
+Module Module1
+  Dim Number As Integer
+  Sub Main()
+  
+    Do While Int32.TryParse(Console.ReadLine, Number) = False
+      Console.WriteLine("Error - Not a whole number")
+    Loop
+  End Sub
+  
+  
+ 
